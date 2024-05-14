@@ -1,0 +1,283 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* CSS for the navigation links */
+.nav-link {
+    text-decoration: none;
+    color: #ffffff; /* Default color */
+    transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+/* Hover animation */
+.nav-link:hover {
+    color: rgb(133, 201, 250); /* Change color on hover */
+}
+
+
+/* Main styles */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+label {
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="number"],
+button[type="buttonPlaceBid"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+}
+
+button[type="buttonSearch"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+button[type="profilePageButton"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+}
+
+button[type="profilePageButton2"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    margin-top: 3rem;
+    margin-right: 50px;
+}
+
+/* CSS for the "Place Bid" button */
+.bid-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px; /* Adjust margin as needed */
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners */
+    transition-duration: 0.4s; /* Smooth transition */
+}
+
+.bid-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.bid-button2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px; /* Adjust margin as needed */
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners */
+    transition-duration: 0.4s; /* Smooth transition */
+}
+
+.bid-button2:hover {
+    background-color: #ff0000; /* Darker green on hover */
+}
+
+.redButton {
+    background-color: #e2230a; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px; /* Adjust margin as needed */
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 5px; /* Add rounded corners */
+    transition-duration: 0.4s; /* Smooth transition */
+}
+
+.redButton:hover {
+    background-color: #dc7b13; /* Darker green on hover */
+}
+
+/* Style for the form container */
+.form-container {
+    max-width: 400px;
+    margin: auto; /* Center horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    margin-bottom: 50px;
+}
+
+/* Style for form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for form input fields */
+input[type="text"],
+input[type="number"],
+input[type="datetime-local"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Style for the greenButton button */
+button[type="greenButton"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Style for the save button on hover */
+button[type="greenButton"]:hover {
+    background-color: #45a049;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* CSS to center the search products section */
+#search_form {
+    margin: 0 auto; /* Center the section horizontally */
+    max-width: 600px; /* Set maximum width for better readability */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+/* Center the contents of the featured products section */
+#featured_products {
+    text-align: center;
+}
+
+/* Optionally, you can style the heading as well */
+#featured_products h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* CSS to center product data */
+.product {
+    display: inline-block;
+    width: 250px; /* Adjust width as needed */
+    margin: 20px; /* Adjust margin as needed */
+    text-align: left; /* Align text to the left */
+    vertical-align: top; /* Align products vertically */
+}
+
+.product img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+
